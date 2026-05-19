@@ -1,11 +1,11 @@
-Praveena M
-212223040153
-EX. NO.6
-19-05-2026
-Implementation of Semantic ANalysis
-Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques.
+# Praveena M
+# 212223040153
+# EX. NO.6
+# 19-05-2026
+# Implementation of Semantic ANalysis
+# Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques.
 
-Algorithm:
+# Algorithm:
 Step 1: Import the nltk library.
 Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.
 Step 3:Accept user input for the text.
@@ -16,7 +16,7 @@ Step 5:Iterate through each word in the tokenized text.
 • For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).
 • Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.
 • Print the unique sets of synonyms and antonyms.
-Program:
+# Program:
 Insert your code here
 ```
 import nltk
@@ -50,7 +50,10 @@ print("POS Tags:", pos_tags)
 print("Synonyms:", set(synonyms))
 print("Antonyms:", set(antonyms))
 ```
-Output
+# Output
 
-Result:
+<img width="1025" height="231" alt="image" src="https://github.com/user-attachments/assets/930be59d-29d1-4891-880e-7eb17c9dd018" />
+
+
+# Result:
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
